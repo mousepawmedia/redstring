@@ -1,0 +1,8 @@
+{
+    "linters": {
+        "py": {
+            "type": "pylint",
+            "include": "(\\.py$)"
+        },
+    }
+}
