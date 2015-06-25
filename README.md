@@ -40,7 +40,7 @@ as the GTK+3 bindings.
 	sudo apt-get install python3-gi
 
 INSTALL: Download Redstring-2.0.2.zip. Unpack in your
-/home/ directory. The file "Redstring" is an executable
+home directory. The file "Redstring" is an executable
 Python file.
 
 RUN: In a terminal, browse to your Redstring folder.
@@ -98,7 +98,7 @@ Some code authored using Redstring 2.0.2...
 yes, this project is recusive.
 
 The full source code is available at
-http://www.sourceforge.com/projects/redstring
+https://github.com/mousepawgames/redstring
 
 
 Report Bugs/Glitches
