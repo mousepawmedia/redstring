@@ -1,129 +1,121 @@
-Redstring 2.0.2
-=====================
+# Redstring 2.0.2
 
-Distributed by MousePaw Labs
-http://www.mousepawgames.com/labs
+**Redstring** is distributed by MousePaw Media
+(formerly MousePaw Games/MousePaw Labs).
+See the [official project page][1].
 
-Description
----------------
+## Description
 
-Life is full of redundancy. Whether you need to 
-write fifty lines of code that follows the same 
-format, generate a thousand serial numbers from a 
-pattern, or write eight hundred sentences for 
+Life is full of redundancy. Whether you need to
+write fifty lines of code that follows the same
+format, generate a thousand serial numbers from a
+pattern, or write eight hundred sentences for
 teaching the letter “D”, REDSTRING can help.
 
-Installation
----------------
-### WINDOWS
+## Installation
 
-PREREQUISITES: None known. The executable runs without
-Python being installed on the computer.
+### Windows
 
-INSTALL: Run Redstring-2.0.2-Setup.exe to start the
-installer. All needed files will be installed.
+#### Prerequisites
 
-RUN, WIN XP/Vista/7: Go to START ->
-MousePaw Labs -> Redstring.
+None known. The executable runs without Python being installed on
+the computer.
 
-RUN, WIN 8/8.1: Go to Start Screen, type
-"Redstring" to search for app.
+#### Install
 
-### LINUX
-PREREQUISITES: Install Python 2.7 or later, as well
-as the GTK+3 bindings.
+Run `Redstring-2.0.2-Setup.exe` to start the installer. All needed
+files will be installed.
+
+#### Run, Win XP/Vista/7
+
+Go to START -> MousePaw Labs -> Redstring.
+
+#### Run, Win 8/8.1
+
+Go to Start Screen, type "Redstring" to search for app.
+
+### Linux
+
+#### Prerequisites
+
+Install Python 2.7 or later, as well as the GTK+3 bindings.
 
 	sudo apt-get install python
 	sudo apt-get install python-gi
+
 -OR-
+
 	sudo apt-get install python3
 	sudo apt-get install python3-gi
 
-INSTALL: Download Redstring-2.0.2.zip. Unpack in your
-home directory. The file "Redstring" is an executable
-Python file.
+#### Install
 
-RUN: In a terminal, browse to your Redstring folder.
+Download `Redstring-2.0.2.zip`. Unpack in your home directory. The file
+"Redstring" is an executable Python file.
+
+#### Run
+
+In a terminal, browse to your Redstring folder.
+
 	cd Redstring
 
 Execute the Redstring file.
+
 	./Redstring
 
-RUN, UBUNTU 14.04/14: After following the above steps, 
-lock the Redstring app to the Launcher. Close Redstring
-and click the Launcher icon to start it again. This 
-should create a shortcut to Redstring in the Dash.
-You can unlock the icon from the Launcher if desired. 
+## Development Notes
 
-License
--------------
+Redstring was written in Python 2.7 and GTK 3.8 (PyGObject), using...
 
-Copyright (C) 2014 MousePaw Games.
+Primary Development Operating System [Ubuntu 14.14](http://www.ubuntu.com/)
 
-This software is licensed under the GNU GENERAL PUBLIC
-LICENSE, VERSION 3. A full copy of this license can be
-found in LICENSE.MD, or at 
-http://www.gnu.org/licenses/gpl.txt.
+Integrated Development Environment [NINJA-IDE](http://ninja-ide.org/)
 
-Development Notes
-----------------------
+GUI RAD [Glade](https://glade.gnome.org/)
 
-Redstring was written in Python 2.7 and GTK 3.8
-(PyGObject), using...
+Testing Environment [VirtualBox](https://www.virtualbox.org/)
 
-Primary Development Operating System
-Ubuntu 14.14: http://www.ubuntu.com/
+Windows Binary Creator [Py2Exe](http://www.py2exe.org/)
 
-Integrated Development Environment
-NINJA-IDE: http://ninja-ide.org/
+Windows Installer Creator [InnoSetup]([http://www.jrsoftware.org/isinfo.php)
+[Inno Script Studio](https://www.kymoto.org/)
 
-GUI RAD
-Glade: https://glade.gnome.org/
+Other Packaging Tools [ResourceHacker](http://www.angusj.com/resourcehackr/)
+[ConvertICO.org](http://convertico.org/)
 
-Testing Environment
-VirtualBox: https://www.virtualbox.org/
+Some code authored using Redstring 2.0.2... yes, this project is recusive.
 
-Windows Binary Creator
-Py2Exe: http://www.py2exe.org/
-
-Windows Installer Creator
-InnoSetup: http://www.jrsoftware.org/isinfo.php
-Inno Script Studio: https://www.kymoto.org/
-
-Other Packaging Tools
-ResourceHacker: http://www.angusj.com/resourcehacker/
-ConvertICO.org: http://convertico.org/
-
-Some code authored using Redstring 2.0.2...
-yes, this project is recusive.
-
-The full source code is available at
-https://github.com/mousepawgames/redstring
+The full source code is available at [GitHub][5]
 
 
-Report Bugs/Glitches
------------------------
+## Jason C. McDonald would like to thank...
 
-Please submit bug reports at the project's 
-Github page:
-https://github.com/mousepawgames/redstring
+The team at MousePaw Media, especially Jane McArthur and Anne McDonald.
 
+The good people of StackOverflow for helping me out of a few big problems.
 
-Jason C. McDonald would like to thank...
----------------------------------------------
+The great guys on the `#python` IRC channel on Freenode, where I practically
+lived for three days.
 
-The team at MousePaw Games, especially
-Jane McArthur and Anne McDonald.
-http://www.mousepawgames.com/company/team/
+(Special thanks to dash on #python for solving the project's biggest and most
+annoying bug.)
 
-The good people of StackOverflow for helping
-me out of a few big problems.
-http://www.stackoverflow.com/
+## Contributions
 
-The great guys on the #python channel, where
-I practically lived for three days
-https://www.python.org/community/irc/
+We do not accept pull requests through GitHub.
+If you would like to contribute code, please read our [Contribution Guide][2].
 
-(Special thanks to dash on #python for solving the
-project's biggest and most annoying bug.)
+All contributions are licensed to us under the
+[MousePaw Media Terms of Development][3].
 
+## License
+
+Anari is licensed under the GNU General Public License 3.0. (See LICENSE.md)
+
+The project is owned and maintained by [MousePaw Media][2].
+
+[1]: https://www.mousepawmedia.com/redstring
+[2]: https://www.mousepawmedia.com/
+[3]: https://www.mousepawmedia.com/developers/contributing
+[4]: https://www.mousepawmedia.com/termsofdevelopment
+[5]: https://github.com/mousepawmedia/restring
